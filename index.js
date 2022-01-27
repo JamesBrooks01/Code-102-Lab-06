@@ -20,6 +20,8 @@ else {
     alert('Rude');
 }
 
+window.alert("Try reloading the page when you're done reading, it might change")
+
 if (CurrentS > 40) {
     listColor.style.color = '#FCA311';
 }
@@ -30,3 +32,4 @@ else {
     listColor.style.color = '#6A040F';
 }
 let currentColor = document.querySelector('#List')
+ 
